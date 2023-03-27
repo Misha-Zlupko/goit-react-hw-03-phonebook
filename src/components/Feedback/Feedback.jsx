@@ -2,7 +2,7 @@ import { ContactForm } from '../ContactForm/ContactForm';
 import { ContactList } from '../ContactList/ContactList';
 import { Filter } from '../Filter/Filter';
 import { Component } from 'react';
-import { nanoid } from 'nanoid';
+
 const USERS_LOCALE_STORAGE_KEY = 'users';
 
 export class Feedback extends Component {
